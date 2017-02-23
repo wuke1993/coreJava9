@@ -7,7 +7,7 @@ import java.util.Arrays;
  * Title  : testArraytoString
  * Description : 
  */
-public class testArraystoString {
+public class TestArraystoString {
 
 	public static void main(String[] args) {
 		int[] a = new int[5];

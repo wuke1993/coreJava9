@@ -7,7 +7,7 @@ import java.util.Arrays;
  * Title  : testArrayscopyOf
  * Description : 
  */
-public class testArrayscopyOf {
+public class TestArrayscopyOf {
 
 	public static void main(String[] args) {
 		int[] smallPrimes = {2,3,5,7,11,13};
