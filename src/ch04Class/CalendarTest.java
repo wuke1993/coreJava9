@@ -6,6 +6,7 @@ import java.util.*;
 /**
  * @version 1.4 2007-04-07
  * @author Cay Horstmann
+ * 20170223 ???
  */
 
 public class CalendarTest
@@ -22,10 +23,12 @@ public class CalendarTest
       d.set(Calendar.DAY_OF_MONTH, 1);
 
       int weekday = d.get(Calendar.DAY_OF_WEEK);
-
+      System.out.println("weekday: " + weekday);
+      
       // get first day of week (Sunday in the U.S.)
       int firstDayOfWeek = d.getFirstDayOfWeek();
-
+      System.out.println("firstDayOfWeek: " + firstDayOfWeek);
+      
       // determine the required indentation for the first line
       int indent = 0;
       while (weekday != firstDayOfWeek)
