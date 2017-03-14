@@ -1,5 +1,7 @@
 package ch05Inheritance;
 
+import java.util.ArrayList;
+
 /**
  * This program demonstrates inheritance.
  * @version 1.21 2004-02-21
@@ -24,6 +26,8 @@ public class ManagerTest
       // print out information about all Employee objects
       for (Employee e : staff)
          System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
+      
+      ArrayList<Employee> staffs = new ArrayList<>();
    }
 }
 
