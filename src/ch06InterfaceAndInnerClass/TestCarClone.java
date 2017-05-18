@@ -8,7 +8,7 @@ import java.util.Date;
  * Title  : TestClone
  * Description : 
  */
-public class TestClone {
+public class TestCarClone {
 	
 	public static void main(String[] args) {
 		
